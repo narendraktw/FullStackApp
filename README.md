@@ -1,6 +1,6 @@
-# FullStackApp
+# MERN Stack Authentication app
 
-This repository contains the code for my MERN stack FullStackApp project, featuring authentication using JWT and cookie-based sessions.
+This is a comprehensive web app built with the MERN stack: MongoDB, Express, React, and Node.js. It features robust authentication mechanisms using JWT tokens and cookie-based sessions for secure user management.
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@ This repository contains the code for my MERN stack FullStackApp project, featur
   - Material-UI for UI components.
   - Axios for making API requests.
   - Zod for schema validation.
-  
+
 - **Database**:
   - MongoDB for storing data.
   - Mongoose for interacting with MongoDB.  
