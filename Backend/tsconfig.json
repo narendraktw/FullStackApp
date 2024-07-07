@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",   // Set the target JavaScript version (adjust if needed)
+    "module": "commonjs", // Module system (commonjs for Node.js)
+    "strict": true,      // Enable strict mode for type safety
+    "outDir": "dist",   // Output directory for compiled JavaScript files
+    "allowJs": true,    // Allow importing plain JavaScript files
+    "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
+    "esModuleInterop": true, // Enable TypeScript's ES module interop
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,   
+  },
+  "include": ["src"], // Include source files from the 'src' directory
+  "exclude": ["node_modules", "dist"]
+}

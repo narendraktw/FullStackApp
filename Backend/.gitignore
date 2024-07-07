@@ -1,0 +1,26 @@
+# Compiled files
+*.js
+*.map
+*.d.ts
+
+# Build artifacts
+dist/
+build/
+
+# IDE files
+.vscode/
+
+# Testing files
+coverage/
+*.spec.ts
+*.test.ts
+
+
+# Configuration files
+.env
+.env.*
+
+# Other
+node_modules/
+yarn.lock
+package-lock.json
