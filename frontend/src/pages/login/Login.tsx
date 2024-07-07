@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
-import Visibility from '@mui/icons-material/Visibility';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import GoogleIcon from '@mui/icons-material/Google';
 import { useAppDispatch, useAppSelector } from 'src/app/hook';
 import { loginRequest, googleLoginRequest } from 'src/features/auth/authSlice';
@@ -89,7 +89,7 @@ const Login = () => {
                         onClick={handleClickShowPassword}
                         edge="end"
                       >
-                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                        {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
                       </IconButton>
                     </InputAdornment>
                   ),
@@ -107,9 +107,9 @@ const Login = () => {
                 fullWidth
                 startIcon={<GoogleIcon />}
                 onClick={handleGoogleLogin}
-                sx={{ mt: 2 }}
+                sx={{ mt: 2, bgcolor: '#4285F4', color: '#fff' }}
               >
-                Google Login
+                Continue with Google
               </Button>
             </Grid>
           </Grid>
